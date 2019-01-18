@@ -1,0 +1,202 @@
+.card-header {
+    text-align: center;
+    font-size: 18px;
+    background-color: rgb(88, 163, 233);
+    color: white;
+}
+
+.card-body {
+    font-family: 'Nova Round', cursive;
+    color: white;  
+}
+.event-body {
+    width:290px;
+    text-align:center;
+}
+
+.card-img-top {
+    height: 180px;
+    width: 290px;
+}
+
+.card-text {
+    font-size: 15px;
+}
+
+h4,
+#myEvents {
+    display:inline-block;
+    background-color:rgb(88, 163, 233);
+}
+
+h2 {
+    background-color:rgb(88, 163, 233);
+    text-align: center;
+    margin: 0 auto;
+}
+
+.midHeading {
+    display:flex;
+}
+
+.eventcard1 {
+    background-color: rgb(88, 163, 233);
+    height: 530px;
+    margin-left:30px;
+    margin-bottom:20px;
+}
+
+.eventcard2 {
+    background-color: rgb(88, 163, 233);
+    height: 530px;
+    margin-left:30px;
+}
+
+.eventcard3 {
+    background-color: rgb(88, 163, 233);
+    height: 520px;
+    margin-left:30px;
+    margin-top:20px;
+}
+
+.eventcard4 {
+    background-color: rgb(88, 163, 233);
+    height: 520px;
+    margin-left:30px;
+    margin-top:20px;
+}
+
+.eventcard5 {
+    background-color: rgb(88, 163, 233);
+    height: 510px;
+    margin-left:30px;
+    margin-top:20px;
+}
+
+#submitButton,
+#viewSched,
+#addSched {
+    text-align: center;
+    margin: 0 auto;
+}
+
+#welcomeText {
+    background-color: #f18585;
+    color: white;
+}
+
+nav {
+    width: 100%;
+    color: white;
+}
+
+#voterDiv {
+    background-image: url("./assets/starsback.jpg");
+    border: 0;
+    color: white;
+}
+#voteSched {
+    text-align: center;
+}
+#myEvents {
+    border-style: dashed;
+    border-width: 5px;
+    border-color:#f18585;
+    width: 75%;
+    display: inline-block;
+}
+
+.btn-primary {
+    width: 100px;
+}
+
+.card-title {
+    text-align: center;
+    color: white;
+}
+
+.btn-primary {
+    margin-left: 300px;
+}
+
+#welcome-title {
+    font-size: 65px;
+    font-weight: 800;
+}
+
+body,
+#body {
+    margin: 0;
+    padding: 0;
+    background-image: url("./assets/starsback.jpg");
+    font-family: 'Nova Round', cursive;
+    color: white;
+}
+
+#map {
+    height: 400px;
+    width: 50%;
+    margin: auto;
+    background-image: url("./assets/starsback.jpg");
+}
+
+.card {
+    background-image: url("./assets/starsback.jpg");
+}
+
+#events {
+    width: 50%;
+    margin: auto;
+}
+
+nav {
+    width: 100%;
+    background: #003a6b;
+}
+
+ul {
+    width: 80%;
+}
+
+ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 20px;
+    color: white;
+}
+
+ul li:hover {
+    background: #e91e36;
+}
+
+ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.toggle {
+    width: 100%;
+    padding: 10px 20px;
+    background: #001f44;
+    text-align: right;
+    box-sizing: border-box;
+    color: #fff;
+    font-size: 20px;
+}
+
+@media(max-width:768px) {
+    .toggle {
+        display: block;
+    }
+    ul {
+        width: 100%;
+    }
+    ul li {
+        display: block;
+        text-align: center;
+    }
+}
+
+.active {
+    display: block;
+}
